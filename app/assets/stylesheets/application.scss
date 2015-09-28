@@ -31,10 +31,55 @@
   
 @font-face {font-family: 'UniformUltra-Ultra';src: font-url('2F4359_3_0.eot');src: font-url('2F4359_3_0.eot?#iefix') format('embedded-opentype'),font-url('2F4359_3_0.woff2') format('woff2'),font-url('2F4359_3_0.woff') format('woff'),font-url('2F4359_3_0.ttf') format('truetype');}
 
-#navtyle {
-  margin:1% 0 2% 0;
-  color:#333;
+
+
+.navbar-header {
+    float: left;
+    padding: 0px;
+    width: 100%;
+    text-align:center;
+}
+
+.navbar-brand {
+float:none;
+
+}
+
+#cityintro1 {
+  margin:2% 0 0 0;
   font-family: 'UniformUltra-Ultra';
   font-weight: normal;
-  font-size: 100%;
+  font-size: 600%;
+}
+
+#cityintro2 {
+  margin:0 0 2% 0;
+  color:#333;
+  font-family: 'UniformExtraCondensedBold-Bold';
+  font-weight: normal;
+  font-size: 150%;
+}
+
+.centered-tabs {  
+    text-align: center;
+   
+}
+.centered-tabs ul.nav-tabs {
+    display: inline-block;
+    border:0px;
+}
+.centered-tabs li {
+    display: inline
+}
+.centered-tabs a {
+    float: left
+}
+
+
+a {
+	color:#333;
+}
+
+a:hover {
+	color:#333;
 }

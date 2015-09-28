@@ -6,19 +6,21 @@
    <%= stylesheet_link_tag    "application", media: "all" %>
    <%= javascript_include_tag "application" %>
    <%= csrf_meta_tags %>
+
 </head>
 <body>
-
- <div class="container">
-   <ul>
-     <ul class="nav nav-tabs" id="navstyle">
-       <li><%= link_to "About", welcome_about_path %></li>
-       <li><%= link_to "Work", welcome_work_path %></li>
-       <li><%= link_to "Contact", welcome_contact_path %></li>
-     </ul>
-   </ul>
+ <div class="container-fluid">
+        <div class="text-center" id="cityintro1">christie brophy</div>
+        <div class="centered-tabs" id="cityintro2">  
+          <ul class="nav nav-tabs">
+            <li><a href="<%home_about_path%>">ABOUT</a></li>
+            <li><a href="<%home_work_path%>">WORK</a></li>
+            <li><a href="<%home_contact_path%>">CONTACT</a></li>
+          </ul>
+        </div>
  </div>
 
+ <div class="jumbotron" style="background-image: url('https://s3-us-west-2.amazonaws.com/christiebrophy-scoutiste/sofa.png')"></div>
 <%= yield %>
 
 </body>
