@@ -31,6 +31,32 @@
   
 @font-face {font-family: 'UniformUltra-Ultra';src: font-url('2F4359_3_0.eot');src: font-url('2F4359_3_0.eot?#iefix') format('embedded-opentype'),font-url('2F4359_3_0.woff2') format('woff2'),font-url('2F4359_3_0.woff') format('woff'),font-url('2F4359_3_0.ttf') format('truetype');}
 
+.jumbotron  {
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align:center;
+    postition: relative;
+    
+}
+
+.home-index {
+    padding: 30% 0 0 0;
+    margin: 10% 0 10% 0;
+  
+}
+
+.jumbotron {
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align:center;
+    postition: relative;
+}
+
+.home-about {
+    padding: 45% 0 0 0;
+    margin: 10% 0 20% 0; 
+}
+
 
 
 .navbar-header {
