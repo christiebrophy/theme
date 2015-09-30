@@ -22,9 +22,7 @@
 
 
 
-$( '.projects' ).mixitup( {
-		targetSelector: '.project',	// Class required on each portfolio item
-		filterSelector: '.filter', // Class required on each filter link
-		effects: ['rotateZ'],
-		easing: 'snap'
+$('#projects').mixItUp( {
+	
 	} );
+});
