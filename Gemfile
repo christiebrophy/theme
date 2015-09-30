@@ -14,6 +14,7 @@ gem 'rails', '4.2.1'
  end
 
 gem 'bootstrap-sass'
+gem 'mixitup_rails'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets

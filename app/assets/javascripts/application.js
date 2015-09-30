@@ -15,3 +15,16 @@
 //= require turbolinks
 //= require bootstrap
 //= require_tree .
+//= require mixitup
+
+ $(document).ready(function(){
+
+
+
+
+$( '.projects' ).mixitup( {
+		targetSelector: '.project',	// Class required on each portfolio item
+		filterSelector: '.filter', // Class required on each filter link
+		effects: ['rotateZ'],
+		easing: 'snap'
+	} );

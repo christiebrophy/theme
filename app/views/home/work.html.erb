@@ -1,3 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Theme</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+   <%= stylesheet_link_tag    "application", media: "all" %>
+   <%= javascript_include_tag "application" %>
+   <%= csrf_meta_tags %>
+
+</head>
+<body>
+
+
 <div class="row">
 	<div class="col-full">
 		<ul class="filters">
@@ -11,19 +24,31 @@
 					<!-- Portfolio items -->
 <div class="row projects gallery">
 	    
+		 <div class="col-sm-6 project port-webdevelopment"><a href="http://scoutiste.com/home/index"><img src="https://s3-us-west-2.amazonaws.com/christiebrophy-theme/scoutiste.png" class="img-responsive" alt=""></a>
+	    	<div class="caption" id="work_title">Scoutiste - Etsy API website</div>
+	    </div>
+		
+		<div class="col-sm-6 project port-content"><a href="http://www.lonny.com/Creating+Perfectly+Imperfect+Interiors"><img src="https://s3-us-west-2.amazonaws.com/christiebrophy-theme/big-13.jpg" class="img-responsive" alt=""></a>
+		 <div class="caption" id="work_title">Creating Perfectly Imperfect Interiors - Lonny Magazine</div>
+		</div>
+</div>
+
+
+<div class="row projects gallery">
+	    
+	     <div class="col-sm-6 project port-content"><a href="http://www.lonny.com/News+from+the+Lonny+Team/articles/IuOKE_znw6y/I+m+Obsessed+Getaway+to+Mexico"><img src="https://s3-us-west-2.amazonaws.com/christiebrophy-theme/big-4.jpg" class="img-responsive" alt=""></a>
+		    <div class="caption" id="work_title">I'm Obsessed Product Roundup - Lonny Magazine</div>
+	    </div>
+
 		 <div class="col-sm-6 project port-content"><a href="http://www.lonny.com/How+to+Decorate+with+Dark+Walls"><img src="https://s3-us-west-2.amazonaws.com/christiebrophy-theme/big-10.jpg" class="img-responsive" alt=""></a>
 	    	<div class="caption" id="work_title">How to Decorate with Dark Walls - Lonny Magazine</div>
 	    </div>
-		
-		<div class="col-sm-6 project port-content"><a href="http://www.lonny.com/Shop+Talk+Los+Angeles's+45+Three+Modern+Vintage+Home"><img src="https://s3-us-west-2.amazonaws.com/christiebrophy-theme/big-2.jpg" class="img-responsive" alt=""></a>
-		 <div class="caption" id="work_title">Shop Talk: Los Angeles's 45 Three Modern Vintage Home - Lonny Magazine</div>
-		</div>
 </div>
 <div class="row projects gallery">
 						
-		<div class="col-sm-6 project port-content"><a href="http://www.lonny.com/Easy+Bathroom+Makeover"><img src="https://s3-us-west-2.amazonaws.com/christiebrophy-theme/big-7.jpg" class="img-responsive" alt=""></a>
-			<div class="caption" id="work_title">Ten Steps for a Complete Bathroom Makeover on a Budget - Lonny Magazine</div>
-	    </div>
+		<div class="col-sm-6 project port-content"><a href="http://www.guildery.com/blog/2015/05/vibrant-hued-florals/"><img src="https://s3-us-west-2.amazonaws.com/christiebrophy-theme/big-12.jpg" class="img-responsive" alt=""></a>
+		    <div class="caption" id="work_title">Vibrant Hued Florals - Guildery</div>
+		</div>
 						
 		<div class="col-sm-6 project port-content"><a href="http://www.lonny.com/DIY+Inspiration"><img src="https://s3-us-west-2.amazonaws.com/christiebrophy-theme/big-8.jpg" class="img-responsive" alt=""></a>
 			<div class="caption" id="work_title">Designer Tips for Do-It-Yourself Success - Lonny Magazine</div>
@@ -42,10 +67,10 @@
 		<div class="col-sm-6 project port-content"><a href="http://www.lonny.com/Shop+Talk+West+Palm+Beach's+CIRCA+WHO"><img src="https://s3-us-west-2.amazonaws.com/christiebrophy-theme/big-3.jpg" class="img-responsive" alt=""></a>
 			<div class="caption" id="work_title">Shop Talk: West Palm Beach's Circa Who - Lonny Magazine</div>
 	    </div>
-						
-		<div class="col-sm-6 project port-content"><a href="http://www.lonny.com/News+from+the+Lonny+Team/articles/IuOKE_znw6y/I+m+Obsessed+Getaway+to+Mexico"><img src="https://s3-us-west-2.amazonaws.com/christiebrophy-theme/big-4.jpg" class="img-responsive" alt=""></a>
-		    <div class="caption" id="work_title">I'm Obsessed Product Roundup - Lonny Magazine</div>
-	    </div>
+
+	    <div class="col-sm-6 project port-content"><a href="http://www.guildery.com/blog/2015/05/tiki-meets-palm-beach/"><img src="https://s3-us-west-2.amazonaws.com/christiebrophy-theme/big-11.jpg" class="img-responsive" alt=""></a>
+			<div class="caption" id="work_title">Tiki Meets Palm Beach - Guildery</div>
+		</div>
 </div>
 <div class="row projects gallery">				
 		<div class="col-sm-6 project port-content"><a href="http://www.lonny.com/How+to+Create+Compelling+Vignettes"><img src="https://s3-us-west-2.amazonaws.com/christiebrophy-theme/big-5.jpg" class="img-responsive" alt=""></a>
@@ -57,12 +82,16 @@
 		</div>
 </div>
 <div class="row projects gallery">			
-		<div class="col-sm-6 project port-content"><a href="http://www.guildery.com/blog/2015/05/tiki-meets-palm-beach/"><img src="https://s3-us-west-2.amazonaws.com/christiebrophy-theme/big-11.jpg" class="img-responsive" alt=""></a>
-			<div class="caption" id="work_title">Tiki Meets Palm Beach - Guildery</div>
-		</div>
+		
 
-		<div class="col-sm-6 project port-content"><a href="http://www.guildery.com/blog/2015/05/vibrant-hued-florals/"><img src="https://s3-us-west-2.amazonaws.com/christiebrophy-theme/big-12.jpg" class="img-responsive" alt=""></a>
-		    <div class="caption" id="work_title">Vibrant Hued Florals - Guildery</div>
-		</div>
-						
+        <div class="col-sm-6 project port-content"><a href="http://www.lonny.com/Easy+Bathroom+Makeover"><img src="https://s3-us-west-2.amazonaws.com/christiebrophy-theme/big-7.jpg" class="img-responsive" alt=""></a>
+			<div class="caption" id="work_title">Ten Steps for a Complete Bathroom Makeover on a Budget - Lonny Magazine</div>
+	    </div>
+
+	     <div class="col-sm-6 project port-content"><a href="http://www.lonny.com/Shop+Talk+Los+Angeles's+45+Three+Modern+Vintage+Home"><img src="https://s3-us-west-2.amazonaws.com/christiebrophy-theme/big-2.jpg" class="img-responsive" alt=""></a>
+		    <div class="caption" id="work_title">Shop Talk: Los Angeles's 45 Three Modern Vintage Home - Lonny Magazine</div>
+		</div>					
 </div>
+	
+</body>
+
