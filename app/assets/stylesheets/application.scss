@@ -123,3 +123,52 @@ a {
 a:hover {
 	color:#333;
 }
+
+.filters {
+  display: block;
+  margin: 0 0 0 0;
+  padding: 0 0 1% 5%;
+  list-style-type: none;
+
+}
+
+.filters li {
+  color: #000000;
+  display: inline-block;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  font-family: 'UniformExtraCondensedBold-Bold';
+  font-weight: normal;
+  font-size: 150%;
+}
+
+.filters li:hover, .filters li.active { color: #f08b65; }
+
+.filters li:before {
+  content: "\2022";
+  padding: 0 5%;
+  color: #000000;
+}
+
+.filters li:first-child:before {
+  content: "";
+  padding: 0;
+}
+
+.projects {
+  padding: 1% 1% 1% 1%;
+}
+
+.project {
+  padding: 1% 1% 1% 1%;
+}
+
+
+#work_title {
+  color:#333;
+  font-family: 'UniformExtraCondensedBold-Bold';
+  font-weight: normal;
+  font-size: 150%;
+  text-align:center;
+}
