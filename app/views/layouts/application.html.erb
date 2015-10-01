@@ -1,27 +1,25 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Theme</title>
- <meta name="viewport" content="width=device-width, initial-scale=1">
-   <%= stylesheet_link_tag    "application", media: "all" %>
-   <%= javascript_include_tag "application" %>
-   <%= csrf_meta_tags %>
+  <title>Christie Brophy</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+     <%= stylesheet_link_tag    "application", media: "all" %>
+     <%= javascript_include_tag "application" %>
+     <%= csrf_meta_tags %>
 
 </head>
 <body>
- <div class="container-fluid">
-        <div class="text-center" id="cityintro1">
-         <a href="<%=home_index_path%>">christie brophy</a>
-        </div>
+  <div class="container-fluid" id="title">
+    <a href="<%=home_index_path%>">christie brophy</a>
+  </div>
         
-        <div class="centered-tabs" id="cityintro2">  
-          <ul class="nav nav-tabs">
-            <li><a href="<%=home_about_path%>">ABOUT</a></li>
-            <li><a href="<%=home_work_path%>">WORK</a></li>
-        
-          </ul>
-        </div>
- </div>
+  <div class="centered-tabs">  
+    <ul class="nav nav-tabs">
+        <li><a href="<%=home_about_path%>">ABOUT</a></li>
+        <li><a href="<%=home_work_path%>">WORK</a></li>
+    </ul>
+  </div>
+ 
 <%= yield %>
 
 </body>

@@ -31,62 +31,63 @@
   
 @font-face {font-family: 'UniformUltra-Ultra';src: font-url('2F4359_3_0.eot');src: font-url('2F4359_3_0.eot?#iefix') format('embedded-opentype'),font-url('2F4359_3_0.woff2') format('woff2'),font-url('2F4359_3_0.woff') format('woff'),font-url('2F4359_3_0.ttf') format('truetype');}
 
-.jumbotron  {
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-align:center;
-    postition: relative;
-    
+
+.col-sm-6 {
+padding: 1% 2% 1% 2%;
+} 
+
+a, a:hover {
+  color:#333;
+  text-decoration:none;
 }
 
-.home-index {
-    padding: 30% 0 0 0;
-    margin: 10% 0 10% 0;
-  
-}
+/* Site title and nav */
 
-.jumbotron {
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-align:center;
-    postition: relative;
-}
-
-.home-about {
-    padding: 45% 0 0 0;
-    margin: 5% 0 5% 0; 
-}
-
-
-
-.navbar-header {
-    float: left;
-    padding: 0px;
-    width: 100%;
-    text-align:center;
-}
-
-.navbar-brand {
-float:none;
-
-}
-
-#cityintro1 {
+#title {
   margin:2% 0 0 0;
   font-family: 'UniformUltra-Ultra';
   font-weight: normal;
   font-size: 600%;
+  text-align:center;
 }
 
-#cityintro2 {
-  margin:0 0 2% 0;
-  color:#333;
-  font-family: 'UniformExtraCondensedBold-Bold';
-  font-weight: normal;
-  font-size: 150%;
+.centered-tabs {  
+    text-align: center;
+   
+}
+.centered-tabs ul.nav-tabs {
+    display: inline-block;
+    border:0px;
+    margin:0 0 2% 0;
+    color:#333;
+    font-family: 'UniformExtraCondensedBold-Bold';
+    font-weight: normal;
+    font-size: 150%;
+}
+.centered-tabs li {
+    display: inline
+}
+.centered-tabs a {
+    float: left
 }
 
-#aboutintro {
+/* index page */
+
+.jumbotron  {
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align:center;
+    postition: relative;    
+}
+
+.index_image {
+   padding: 30% 0 0 0;
+   margin: 10% 0 10% 0;
+}
+
+/* about page */
+
+#about_intro {
   color:#333;
   font-family: 'UniformExtraCondensedBold-Bold';
   font-weight: normal;
@@ -100,29 +101,14 @@ float:none;
 
 }
 
-.centered-tabs {  
-    text-align: center;
-   
-}
-.centered-tabs ul.nav-tabs {
-    display: inline-block;
-    border:0px;
-}
-.centered-tabs li {
-    display: inline
-}
-.centered-tabs a {
-    float: left
-}
+/* work page */
 
-
-a {
-	color:#333;
-}
-
-a:hover {
-	color:#333;
-  text-decoration:none;
+#work_captions {
+  color:#333;
+  font-family: 'UniformExtraCondensedBold-Bold';
+  font-weight: normal;
+  font-size: 150%;
+  text-align:center;
 }
 
 #projects .mix {
@@ -132,7 +118,6 @@ a:hover {
 .filters {
   display: block;
   list-style-type: none;
-
 }
 
 .filters li {
@@ -160,16 +145,4 @@ a:hover {
   padding: 0;
 }
 
-.col-sm-6 {
-padding: 1% 2% 1% 2%;
 
-}
-
-
-#work_title {
-  color:#333;
-  font-family: 'UniformExtraCondensedBold-Bold';
-  font-weight: normal;
-  font-size: 150%;
-  text-align:center;
-}
