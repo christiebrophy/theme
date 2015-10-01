@@ -41,13 +41,32 @@ a, a:hover {
   text-decoration:none;
 }
 
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  body{font-size: 300%;}
+ }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  body{font-size: 350%;}
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  body{font-size: 450%;}
+ }
+
+
+
+
+
 /* Site title and nav */
 
 #title {
   margin:2% 0 0 0;
   font-family: 'UniformUltra-Ultra';
+  font-size:2em;
   font-weight: normal;
-  font-size: 600%;
   text-align:center;
 }
 
@@ -62,7 +81,7 @@ a, a:hover {
     color:#333;
     font-family: 'UniformExtraCondensedBold-Bold';
     font-weight: normal;
-    font-size: 150%;
+    font-size: .8em;
 }
 .centered-tabs li {
     display: inline
@@ -93,7 +112,8 @@ a, a:hover {
   font-weight: normal;
   vertical-align:top;
   padding: 0 3% 5% 5%;
-  font-size: 150%;
+  font-size: .75em;
+  line-height: 1.1em;
 }
 
 #about_image {
@@ -107,7 +127,7 @@ a, a:hover {
   color:#333;
   font-family: 'UniformExtraCondensedBold-Bold';
   font-weight: normal;
-  font-size: 150%;
+  font-size: .8em;
   text-align:center;
 }
 
@@ -128,7 +148,7 @@ a, a:hover {
   letter-spacing: 0.15em;
   font-family: 'UniformExtraCondensedBold-Bold';
   font-weight: normal;
-  font-size: 150%;
+  font-size: .8em;
   margin: 0 0 0 0;
   padding: 0 0 1% 5%;
 }
