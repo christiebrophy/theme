@@ -19,6 +19,7 @@ gem 'devise'
 gem 'figaro', '1.0'
 gem 'mail_form'
 gem 'simple_form'
+gem 'responders'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
